@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E1FAA3E277505C20024CB43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA3D277505C20024CB43 /* AppDelegate.swift */; };
+		5E1FAA40277505C20024CB43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA3F277505C20024CB43 /* SceneDelegate.swift */; };
+		5E1FAA42277505C20024CB43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA41277505C20024CB43 /* ViewController.swift */; };
+		5E1FAA45277505C20024CB43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA43277505C20024CB43 /* Main.storyboard */; };
+		5E1FAA48277505C20024CB43 /* ViolaVIPER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA46277505C20024CB43 /* ViolaVIPER.xcdatamodeld */; };
+		5E1FAA4A277505C40024CB43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA49277505C40024CB43 /* Assets.xcassets */; };
+		5E1FAA4D277505C40024CB43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA4B277505C40024CB43 /* LaunchScreen.storyboard */; };
+		5E1FAA58277505C40024CB43 /* ViolaVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA57277505C40024CB43 /* ViolaVIPERTests.swift */; };
+		5E1FAA62277505C40024CB43 /* ViolaVIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA61277505C40024CB43 /* ViolaVIPERUITests.swift */; };
+		5E1FAA64277505C40024CB43 /* ViolaVIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA63277505C40024CB43 /* ViolaVIPERUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E1FAA54277505C40024CB43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E1FAA32277505C20024CB43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1FAA39277505C20024CB43;
+			remoteInfo = ViolaVIPER;
+		};
+		5E1FAA5E277505C40024CB43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E1FAA32277505C20024CB43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1FAA39277505C20024CB43;
+			remoteInfo = ViolaVIPER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E1FAA3A277505C20024CB43 /* ViolaVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViolaVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1FAA3D277505C20024CB43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E1FAA3F277505C20024CB43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E1FAA41277505C20024CB43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E1FAA44277505C20024CB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E1FAA47277505C20024CB43 /* ViolaVIPER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViolaVIPER.xcdatamodel; sourceTree = "<group>"; };
+		5E1FAA49277505C40024CB43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E1FAA4C277505C40024CB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E1FAA4E277505C40024CB43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E1FAA53277505C40024CB43 /* ViolaVIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViolaVIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1FAA57277505C40024CB43 /* ViolaVIPERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolaVIPERTests.swift; sourceTree = "<group>"; };
+		5E1FAA5D277505C40024CB43 /* ViolaVIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViolaVIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1FAA61277505C40024CB43 /* ViolaVIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolaVIPERUITests.swift; sourceTree = "<group>"; };
+		5E1FAA63277505C40024CB43 /* ViolaVIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolaVIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E1FAA37277505C20024CB43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1FAA50277505C40024CB43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1FAA5A277505C40024CB43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E1FAA31277505C20024CB43 = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA3C277505C20024CB43 /* ViolaVIPER */,
+				5E1FAA56277505C40024CB43 /* ViolaVIPERTests */,
+				5E1FAA60277505C40024CB43 /* ViolaVIPERUITests */,
+				5E1FAA3B277505C20024CB43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E1FAA3B277505C20024CB43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA3A277505C20024CB43 /* ViolaVIPER.app */,
+				5E1FAA53277505C40024CB43 /* ViolaVIPERTests.xctest */,
+				5E1FAA5D277505C40024CB43 /* ViolaVIPERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E1FAA3C277505C20024CB43 /* ViolaVIPER */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA3D277505C20024CB43 /* AppDelegate.swift */,
+				5E1FAA3F277505C20024CB43 /* SceneDelegate.swift */,
+				5E1FAA41277505C20024CB43 /* ViewController.swift */,
+				5E1FAA43277505C20024CB43 /* Main.storyboard */,
+				5E1FAA49277505C40024CB43 /* Assets.xcassets */,
+				5E1FAA4B277505C40024CB43 /* LaunchScreen.storyboard */,
+				5E1FAA4E277505C40024CB43 /* Info.plist */,
+				5E1FAA46277505C20024CB43 /* ViolaVIPER.xcdatamodeld */,
+			);
+			path = ViolaVIPER;
+			sourceTree = "<group>";
+		};
+		5E1FAA56277505C40024CB43 /* ViolaVIPERTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA57277505C40024CB43 /* ViolaVIPERTests.swift */,
+			);
+			path = ViolaVIPERTests;
+			sourceTree = "<group>";
+		};
+		5E1FAA60277505C40024CB43 /* ViolaVIPERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA61277505C40024CB43 /* ViolaVIPERUITests.swift */,
+				5E1FAA63277505C40024CB43 /* ViolaVIPERUITestsLaunchTests.swift */,
+			);
+			path = ViolaVIPERUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E1FAA39277505C20024CB43 /* ViolaVIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1FAA67277505C40024CB43 /* Build configuration list for PBXNativeTarget "ViolaVIPER" */;
+			buildPhases = (
+				5E1FAA36277505C20024CB43 /* Sources */,
+				5E1FAA37277505C20024CB43 /* Frameworks */,
+				5E1FAA38277505C20024CB43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViolaVIPER;
+			productName = ViolaVIPER;
+			productReference = 5E1FAA3A277505C20024CB43 /* ViolaVIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E1FAA52277505C40024CB43 /* ViolaVIPERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1FAA6A277505C40024CB43 /* Build configuration list for PBXNativeTarget "ViolaVIPERTests" */;
+			buildPhases = (
+				5E1FAA4F277505C40024CB43 /* Sources */,
+				5E1FAA50277505C40024CB43 /* Frameworks */,
+				5E1FAA51277505C40024CB43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E1FAA55277505C40024CB43 /* PBXTargetDependency */,
+			);
+			name = ViolaVIPERTests;
+			productName = ViolaVIPERTests;
+			productReference = 5E1FAA53277505C40024CB43 /* ViolaVIPERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E1FAA5C277505C40024CB43 /* ViolaVIPERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1FAA6D277505C40024CB43 /* Build configuration list for PBXNativeTarget "ViolaVIPERUITests" */;
+			buildPhases = (
+				5E1FAA59277505C40024CB43 /* Sources */,
+				5E1FAA5A277505C40024CB43 /* Frameworks */,
+				5E1FAA5B277505C40024CB43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E1FAA5F277505C40024CB43 /* PBXTargetDependency */,
+			);
+			name = ViolaVIPERUITests;
+			productName = ViolaVIPERUITests;
+			productReference = 5E1FAA5D277505C40024CB43 /* ViolaVIPERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E1FAA32277505C20024CB43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					5E1FAA39277505C20024CB43 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					5E1FAA52277505C40024CB43 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 5E1FAA39277505C20024CB43;
+					};
+					5E1FAA5C277505C40024CB43 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 5E1FAA39277505C20024CB43;
+					};
+				};
+			};
+			buildConfigurationList = 5E1FAA35277505C20024CB43 /* Build configuration list for PBXProject "ViolaVIPER" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E1FAA31277505C20024CB43;
+			productRefGroup = 5E1FAA3B277505C20024CB43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E1FAA39277505C20024CB43 /* ViolaVIPER */,
+				5E1FAA52277505C40024CB43 /* ViolaVIPERTests */,
+				5E1FAA5C277505C40024CB43 /* ViolaVIPERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E1FAA38277505C20024CB43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1FAA4D277505C40024CB43 /* LaunchScreen.storyboard in Resources */,
+				5E1FAA4A277505C40024CB43 /* Assets.xcassets in Resources */,
+				5E1FAA45277505C20024CB43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1FAA51277505C40024CB43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1FAA5B277505C40024CB43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E1FAA36277505C20024CB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1FAA48277505C20024CB43 /* ViolaVIPER.xcdatamodeld in Sources */,
+				5E1FAA42277505C20024CB43 /* ViewController.swift in Sources */,
+				5E1FAA3E277505C20024CB43 /* AppDelegate.swift in Sources */,
+				5E1FAA40277505C20024CB43 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1FAA4F277505C40024CB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1FAA58277505C40024CB43 /* ViolaVIPERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1FAA59277505C40024CB43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1FAA62277505C40024CB43 /* ViolaVIPERUITests.swift in Sources */,
+				5E1FAA64277505C40024CB43 /* ViolaVIPERUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E1FAA55277505C40024CB43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E1FAA39277505C20024CB43 /* ViolaVIPER */;
+			targetProxy = 5E1FAA54277505C40024CB43 /* PBXContainerItemProxy */;
+		};
+		5E1FAA5F277505C40024CB43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E1FAA39277505C20024CB43 /* ViolaVIPER */;
+			targetProxy = 5E1FAA5E277505C40024CB43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E1FAA43277505C20024CB43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E1FAA44277505C20024CB43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E1FAA4B277505C40024CB43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E1FAA4C277505C40024CB43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E1FAA65277505C40024CB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E1FAA66277505C40024CB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E1FAA68277505C40024CB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUF7HHD92K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ViolaVIPER/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeorgeTeam.ViolaVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E1FAA69277505C40024CB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUF7HHD92K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ViolaVIPER/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeorgeTeam.ViolaVIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E1FAA6B277505C40024CB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUF7HHD92K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeorgeTeam.ViolaVIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViolaVIPER.app/ViolaVIPER";
+			};
+			name = Debug;
+		};
+		5E1FAA6C277505C40024CB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUF7HHD92K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeorgeTeam.ViolaVIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViolaVIPER.app/ViolaVIPER";
+			};
+			name = Release;
+		};
+		5E1FAA6E277505C40024CB43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUF7HHD92K;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeorgeTeam.ViolaVIPERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViolaVIPER;
+			};
+			name = Debug;
+		};
+		5E1FAA6F277505C40024CB43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FUF7HHD92K;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeorgeTeam.ViolaVIPERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViolaVIPER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E1FAA35277505C20024CB43 /* Build configuration list for PBXProject "ViolaVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1FAA65277505C40024CB43 /* Debug */,
+				5E1FAA66277505C40024CB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1FAA67277505C40024CB43 /* Build configuration list for PBXNativeTarget "ViolaVIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1FAA68277505C40024CB43 /* Debug */,
+				5E1FAA69277505C40024CB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1FAA6A277505C40024CB43 /* Build configuration list for PBXNativeTarget "ViolaVIPERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1FAA6B277505C40024CB43 /* Debug */,
+				5E1FAA6C277505C40024CB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1FAA6D277505C40024CB43 /* Build configuration list for PBXNativeTarget "ViolaVIPERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1FAA6E277505C40024CB43 /* Debug */,
+				5E1FAA6F277505C40024CB43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5E1FAA46277505C20024CB43 /* ViolaVIPER.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5E1FAA47277505C20024CB43 /* ViolaVIPER.xcdatamodel */,
+			);
+			currentVersion = 5E1FAA47277505C20024CB43 /* ViolaVIPER.xcdatamodel */;
+			path = ViolaVIPER.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5E1FAA32277505C20024CB43 /* Project object */;
+}
