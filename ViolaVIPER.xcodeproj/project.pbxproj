@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5E1FAA3E277505C20024CB43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA3D277505C20024CB43 /* AppDelegate.swift */; };
 		5E1FAA40277505C20024CB43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA3F277505C20024CB43 /* SceneDelegate.swift */; };
-		5E1FAA42277505C20024CB43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA41277505C20024CB43 /* ViewController.swift */; };
+		5E1FAA42277505C20024CB43 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA41277505C20024CB43 /* MainController.swift */; };
 		5E1FAA45277505C20024CB43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA43277505C20024CB43 /* Main.storyboard */; };
 		5E1FAA48277505C20024CB43 /* ViolaVIPER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA46277505C20024CB43 /* ViolaVIPER.xcdatamodeld */; };
 		5E1FAA4A277505C40024CB43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1FAA49277505C40024CB43 /* Assets.xcassets */; };
@@ -17,6 +17,16 @@
 		5E1FAA58277505C40024CB43 /* ViolaVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA57277505C40024CB43 /* ViolaVIPERTests.swift */; };
 		5E1FAA62277505C40024CB43 /* ViolaVIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA61277505C40024CB43 /* ViolaVIPERUITests.swift */; };
 		5E1FAA64277505C40024CB43 /* ViolaVIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA63277505C40024CB43 /* ViolaVIPERUITestsLaunchTests.swift */; };
+		5E1FAA72277507530024CB43 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA71277507530024CB43 /* MainPresenter.swift */; };
+		5E1FAA74277507620024CB43 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA73277507620024CB43 /* MainInteractor.swift */; };
+		5E1FAA762775076C0024CB43 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA752775076C0024CB43 /* MainRouter.swift */; };
+		5E1FAA782775077A0024CB43 /* MainContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA772775077A0024CB43 /* MainContract.swift */; };
+		5E1FAA7A2775078F0024CB43 /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA792775078F0024CB43 /* MainAssembly.swift */; };
+		5E1FAA7C27750AEA0024CB43 /* MainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1FAA7B27750AEA0024CB43 /* MainEntity.swift */; };
+		5E9F3E4C277514AB0032F80E /* CategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F3E4B277514AB0032F80E /* CategoryButton.swift */; };
+		9268506A616EB55485425DA7 /* Pods_ViolaVIPER_ViolaVIPERUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B55E3584E6185A43586C110 /* Pods_ViolaVIPER_ViolaVIPERUITests.framework */; };
+		A84042D281227FA1AB2CA238 /* Pods_ViolaVIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6D1C4D16FF2BBA6CE207A3 /* Pods_ViolaVIPER.framework */; };
+		D47B04DDDB86294F46EB2288 /* Pods_ViolaVIPERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADF26BA315BCFB44F30D20A /* Pods_ViolaVIPERTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A77C06527CD0C682CD4C97A /* Pods-ViolaVIPER-ViolaVIPERUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViolaVIPER-ViolaVIPERUITests.debug.xcconfig"; path = "Target Support Files/Pods-ViolaVIPER-ViolaVIPERUITests/Pods-ViolaVIPER-ViolaVIPERUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D6D1C4D16FF2BBA6CE207A3 /* Pods_ViolaVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViolaVIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1FAA3A277505C20024CB43 /* ViolaVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViolaVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1FAA3D277505C20024CB43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E1FAA3F277505C20024CB43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E1FAA41277505C20024CB43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E1FAA41277505C20024CB43 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		5E1FAA44277505C20024CB43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E1FAA47277505C20024CB43 /* ViolaVIPER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViolaVIPER.xcdatamodel; sourceTree = "<group>"; };
 		5E1FAA49277505C40024CB43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +63,20 @@
 		5E1FAA5D277505C40024CB43 /* ViolaVIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViolaVIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1FAA61277505C40024CB43 /* ViolaVIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolaVIPERUITests.swift; sourceTree = "<group>"; };
 		5E1FAA63277505C40024CB43 /* ViolaVIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolaVIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E1FAA71277507530024CB43 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		5E1FAA73277507620024CB43 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		5E1FAA752775076C0024CB43 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		5E1FAA772775077A0024CB43 /* MainContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContract.swift; sourceTree = "<group>"; };
+		5E1FAA792775078F0024CB43 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
+		5E1FAA7B27750AEA0024CB43 /* MainEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntity.swift; sourceTree = "<group>"; };
+		5E9F3E4B277514AB0032F80E /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
+		6ADF26BA315BCFB44F30D20A /* Pods_ViolaVIPERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViolaVIPERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEF58CB5402EC32DBECC7CC /* Pods-ViolaVIPER-ViolaVIPERUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViolaVIPER-ViolaVIPERUITests.release.xcconfig"; path = "Target Support Files/Pods-ViolaVIPER-ViolaVIPERUITests/Pods-ViolaVIPER-ViolaVIPERUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9B55E3584E6185A43586C110 /* Pods_ViolaVIPER_ViolaVIPERUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViolaVIPER_ViolaVIPERUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEEB7FE96987D821F09C368 /* Pods-ViolaVIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViolaVIPER.release.xcconfig"; path = "Target Support Files/Pods-ViolaVIPER/Pods-ViolaVIPER.release.xcconfig"; sourceTree = "<group>"; };
+		EDE1F79F7AA18BD9E0181088 /* Pods-ViolaVIPERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViolaVIPERTests.release.xcconfig"; path = "Target Support Files/Pods-ViolaVIPERTests/Pods-ViolaVIPERTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0C0D29D37650ED8F7B993D1 /* Pods-ViolaVIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViolaVIPERTests.debug.xcconfig"; path = "Target Support Files/Pods-ViolaVIPERTests/Pods-ViolaVIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F17085396095D79C5C93929B /* Pods-ViolaVIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViolaVIPER.debug.xcconfig"; path = "Target Support Files/Pods-ViolaVIPER/Pods-ViolaVIPER.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84042D281227FA1AB2CA238 /* Pods_ViolaVIPER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D47B04DDDB86294F46EB2288 /* Pods_ViolaVIPERTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9268506A616EB55485425DA7 /* Pods_ViolaVIPER_ViolaVIPERUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +114,8 @@
 				5E1FAA56277505C40024CB43 /* ViolaVIPERTests */,
 				5E1FAA60277505C40024CB43 /* ViolaVIPERUITests */,
 				5E1FAA3B277505C20024CB43 /* Products */,
+				7805367A95B93A7234D93C81 /* Pods */,
+				DBEB98580942BA340D59AEBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +134,7 @@
 			children = (
 				5E1FAA3D277505C20024CB43 /* AppDelegate.swift */,
 				5E1FAA3F277505C20024CB43 /* SceneDelegate.swift */,
-				5E1FAA41277505C20024CB43 /* ViewController.swift */,
+				5E1FAA70277507380024CB43 /* MailnModule */,
 				5E1FAA43277505C20024CB43 /* Main.storyboard */,
 				5E1FAA49277505C40024CB43 /* Assets.xcassets */,
 				5E1FAA4B277505C40024CB43 /* LaunchScreen.storyboard */,
@@ -130,6 +161,100 @@
 			path = ViolaVIPERUITests;
 			sourceTree = "<group>";
 		};
+		5E1FAA70277507380024CB43 /* MailnModule */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA7D27750AEF0024CB43 /* Contract */,
+				5E1FAA7E27750AFF0024CB43 /* View */,
+				5E1FAA7F27750B140024CB43 /* Presenter */,
+				5E1FAA8027750B1F0024CB43 /* Interactor */,
+				5E1FAA8127750B320024CB43 /* Router */,
+				5E1FAA8227750B440024CB43 /* Entity */,
+				5E1FAA8327750B6A0024CB43 /* Assembly */,
+			);
+			path = MailnModule;
+			sourceTree = "<group>";
+		};
+		5E1FAA7D27750AEF0024CB43 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA772775077A0024CB43 /* MainContract.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		5E1FAA7E27750AFF0024CB43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA41277505C20024CB43 /* MainController.swift */,
+				5E9F3E4B277514AB0032F80E /* CategoryButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E1FAA7F27750B140024CB43 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA71277507530024CB43 /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5E1FAA8027750B1F0024CB43 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA73277507620024CB43 /* MainInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5E1FAA8127750B320024CB43 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA752775076C0024CB43 /* MainRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5E1FAA8227750B440024CB43 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA7B27750AEA0024CB43 /* MainEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5E1FAA8327750B6A0024CB43 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				5E1FAA792775078F0024CB43 /* MainAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		7805367A95B93A7234D93C81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F17085396095D79C5C93929B /* Pods-ViolaVIPER.debug.xcconfig */,
+				EBEEB7FE96987D821F09C368 /* Pods-ViolaVIPER.release.xcconfig */,
+				2A77C06527CD0C682CD4C97A /* Pods-ViolaVIPER-ViolaVIPERUITests.debug.xcconfig */,
+				8CEF58CB5402EC32DBECC7CC /* Pods-ViolaVIPER-ViolaVIPERUITests.release.xcconfig */,
+				F0C0D29D37650ED8F7B993D1 /* Pods-ViolaVIPERTests.debug.xcconfig */,
+				EDE1F79F7AA18BD9E0181088 /* Pods-ViolaVIPERTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBEB98580942BA340D59AEBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D6D1C4D16FF2BBA6CE207A3 /* Pods_ViolaVIPER.framework */,
+				9B55E3584E6185A43586C110 /* Pods_ViolaVIPER_ViolaVIPERUITests.framework */,
+				6ADF26BA315BCFB44F30D20A /* Pods_ViolaVIPERTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E1FAA67277505C40024CB43 /* Build configuration list for PBXNativeTarget "ViolaVIPER" */;
 			buildPhases = (
+				620CA692ACE598A2FFD5A5C8 /* [CP] Check Pods Manifest.lock */,
 				5E1FAA36277505C20024CB43 /* Sources */,
 				5E1FAA37277505C20024CB43 /* Frameworks */,
 				5E1FAA38277505C20024CB43 /* Resources */,
+				1B9778FE3CB2AF22641C76E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +281,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E1FAA6A277505C40024CB43 /* Build configuration list for PBXNativeTarget "ViolaVIPERTests" */;
 			buildPhases = (
+				2CCCF08A98F2B772EBB6F484 /* [CP] Check Pods Manifest.lock */,
 				5E1FAA4F277505C40024CB43 /* Sources */,
 				5E1FAA50277505C40024CB43 /* Frameworks */,
 				5E1FAA51277505C40024CB43 /* Resources */,
@@ -172,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E1FAA6D277505C40024CB43 /* Build configuration list for PBXNativeTarget "ViolaVIPERUITests" */;
 			buildPhases = (
+				947F95CD66FDDC12837A0C69 /* [CP] Check Pods Manifest.lock */,
 				5E1FAA59277505C40024CB43 /* Sources */,
 				5E1FAA5A277505C40024CB43 /* Frameworks */,
 				5E1FAA5B277505C40024CB43 /* Resources */,
+				64C95287341CE0EDE9144872 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +386,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B9778FE3CB2AF22641C76E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViolaVIPER/Pods-ViolaVIPER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViolaVIPER/Pods-ViolaVIPER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViolaVIPER/Pods-ViolaVIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CCCF08A98F2B772EBB6F484 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViolaVIPERTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		620CA692ACE598A2FFD5A5C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViolaVIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64C95287341CE0EDE9144872 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViolaVIPER-ViolaVIPERUITests/Pods-ViolaVIPER-ViolaVIPERUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViolaVIPER-ViolaVIPERUITests/Pods-ViolaVIPER-ViolaVIPERUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViolaVIPER-ViolaVIPERUITests/Pods-ViolaVIPER-ViolaVIPERUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		947F95CD66FDDC12837A0C69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViolaVIPER-ViolaVIPERUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E1FAA36277505C20024CB43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1FAA72277507530024CB43 /* MainPresenter.swift in Sources */,
+				5E1FAA7A2775078F0024CB43 /* MainAssembly.swift in Sources */,
+				5E1FAA762775076C0024CB43 /* MainRouter.swift in Sources */,
 				5E1FAA48277505C20024CB43 /* ViolaVIPER.xcdatamodeld in Sources */,
-				5E1FAA42277505C20024CB43 /* ViewController.swift in Sources */,
+				5E1FAA42277505C20024CB43 /* MainController.swift in Sources */,
 				5E1FAA3E277505C20024CB43 /* AppDelegate.swift in Sources */,
 				5E1FAA40277505C20024CB43 /* SceneDelegate.swift in Sources */,
+				5E1FAA74277507620024CB43 /* MainInteractor.swift in Sources */,
+				5E9F3E4C277514AB0032F80E /* CategoryButton.swift in Sources */,
+				5E1FAA782775077A0024CB43 /* MainContract.swift in Sources */,
+				5E1FAA7C27750AEA0024CB43 /* MainEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,12 +678,13 @@
 		};
 		5E1FAA68277505C40024CB43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17085396095D79C5C93929B /* Pods-ViolaVIPER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FUF7HHD92K;
+				DEVELOPMENT_TEAM = TH94V79X5K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ViolaVIPER/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,12 +707,13 @@
 		};
 		5E1FAA69277505C40024CB43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBEEB7FE96987D821F09C368 /* Pods-ViolaVIPER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FUF7HHD92K;
+				DEVELOPMENT_TEAM = TH94V79X5K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ViolaVIPER/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -494,6 +736,7 @@
 		};
 		5E1FAA6B277505C40024CB43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C0D29D37650ED8F7B993D1 /* Pods-ViolaVIPERTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +762,7 @@
 		};
 		5E1FAA6C277505C40024CB43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDE1F79F7AA18BD9E0181088 /* Pods-ViolaVIPERTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +788,7 @@
 		};
 		5E1FAA6E277505C40024CB43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A77C06527CD0C682CD4C97A /* Pods-ViolaVIPER-ViolaVIPERUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +812,7 @@
 		};
 		5E1FAA6F277505C40024CB43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CEF58CB5402EC32DBECC7CC /* Pods-ViolaVIPER-ViolaVIPERUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
