@@ -9,28 +9,374 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="f1R-ra-Gbe">
+        <scene sceneID="BvK-CU-Q9d">
             <objects>
-                <viewController id="8WD-SU-cRZ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uB2-M6-Oz3">
+                <viewController id="VSJ-rc-GQh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hbN-T3-4lq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QAV-he-pum">
-                                <rect key="frame" x="108" y="173" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="dHL-nL-oO7"/>
+                        <viewLayoutGuide key="safeArea" id="Jyh-w6-rqW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HvH-1K-i6A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EkS-wB-a2K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-240" y="180"/>
+            <point key="canvasLocation" x="-498.55072463768118" y="27.455357142857142"/>
+        </scene>
+        <!--About Us Controller-->
+        <scene sceneID="i3t-3A-LMP">
+            <objects>
+                <tableViewController storyboardIdentifier="AboutUsController" id="Fq2-QD-ayk" customClass="AboutUsController" customModule="ViolaVIPER" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="jnA-Ms-bfM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection id="fa3-wO-OS7">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="MH5-J8-5y8">
+                                        <rect key="frame" x="0.0" y="18" width="414" height="110.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MH5-J8-5y8" id="r2a-gr-KVY">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="110.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="violadent_logo-41" translatesAutoresizingMaskIntoConstraints="NO" id="QlG-YU-1hQ">
+                                                    <rect key="frame" x="82" y="10" width="250" height="100.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="250" id="136-Pn-u7v"/>
+                                                        <constraint firstAttribute="height" constant="100" id="uU9-YJ-CIs"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="QlG-YU-1hQ" secondAttribute="bottom" id="4Io-ep-qmK"/>
+                                                <constraint firstItem="QlG-YU-1hQ" firstAttribute="top" secondItem="r2a-gr-KVY" secondAttribute="top" constant="10" id="4Mm-8n-aVn"/>
+                                                <constraint firstItem="QlG-YU-1hQ" firstAttribute="centerX" secondItem="r2a-gr-KVY" secondAttribute="centerX" id="549-bT-9xo"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="1000" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="90" id="rAP-zX-Mdi">
+                                        <rect key="frame" x="0.0" y="128.5" width="414" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rAP-zX-Mdi" id="ObS-dU-Q28">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="none" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3c-w5-gkg">
+                                                    <rect key="frame" x="25" y="11" width="364" height="68"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Доставка по Україні можлива декількома кур'єрськими службами: Нова Пошта, Делівері, Укрпошта або Justin. ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="15" name="Helvetica-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="I3c-w5-gkg" firstAttribute="leading" secondItem="ObS-dU-Q28" secondAttribute="leadingMargin" constant="5" id="8TD-vc-CF5"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="I3c-w5-gkg" secondAttribute="trailing" constant="5" id="CbL-BS-8yb"/>
+                                                <constraint firstItem="I3c-w5-gkg" firstAttribute="centerY" secondItem="ObS-dU-Q28" secondAttribute="centerY" id="FbT-qd-Eyv"/>
+                                                <constraint firstItem="I3c-w5-gkg" firstAttribute="top" secondItem="ObS-dU-Q28" secondAttribute="topMargin" id="Gc4-wI-Luc"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="I3c-w5-gkg" secondAttribute="bottom" id="lHn-to-8LI"/>
+                                                <constraint firstItem="I3c-w5-gkg" firstAttribute="centerX" secondItem="ObS-dU-Q28" secondAttribute="centerX" id="tVs-Br-Im3"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="pag-zm-kRt" detailTextLabel="zaN-f4-3aU" rowHeight="82" style="IBUITableViewCellStyleSubtitle" id="fY7-Z1-5I9">
+                                        <rect key="frame" x="0.0" y="218.5" width="414" height="82"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fY7-Z1-5I9" id="x1I-Dp-U38">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="82"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pag-zm-kRt">
+                                                    <rect key="frame" x="20" y="16" width="80.5" height="25.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Адреса">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="22" name="Helvetica-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zaN-f4-3aU">
+                                                    <rect key="frame" x="20" y="45.5" width="215.5" height="17.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Полтава, Комарова 5">
+                                                            <attributes>
+                                                                <color key="NSBackgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="15" name="Helvetica"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <integer key="NSLigature" value="1"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.81960785390000002" green="0.82352942230000004" blue="0.82745099070000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment>
+                                                            <string key="content">, Украина
+</string>
+                                                            <attributes>
+                                                                <color key="NSBackgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="14" name="Helvetica"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="VnW-5H-DVq" detailTextLabel="aNe-YO-IhF" rowHeight="82" style="IBUITableViewCellStyleSubtitle" id="662-sK-cYy">
+                                        <rect key="frame" x="0.0" y="300.5" width="414" height="82"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="662-sK-cYy" id="Fje-v9-KFK">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="82"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VnW-5H-DVq">
+                                                    <rect key="frame" x="20" y="16" width="97.5" height="25.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Телефон">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="22" name="Helvetica-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aNe-YO-IhF">
+                                                    <rect key="frame" x="20" y="45.5" width="93.5" height="16.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment>
+                                                            <string key="content">0 800 33 51 82
+</string>
+                                                            <attributes>
+                                                                <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="NSColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="14" name="Helvetica"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="KDp-NL-pmn" detailTextLabel="mBS-VP-QK9" rowHeight="82" style="IBUITableViewCellStyleSubtitle" id="fp6-mg-EUl">
+                                        <rect key="frame" x="0.0" y="382.5" width="414" height="82"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fp6-mg-EUl" id="wDg-B9-UID">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="82"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KDp-NL-pmn">
+                                                    <rect key="frame" x="20" y="16" width="66.5" height="25.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="E-mail">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="22" name="Helvetica-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mBS-VP-QK9">
+                                                    <rect key="frame" x="20" y="45.5" width="128" height="16.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="info@vikisoft.kiev.ua">
+                                                            <attributes>
+                                                                <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="NSColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="14" name="Helvetica"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.3333333432674408" green="0.3333333432674408" blue="0.3333333432674408" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="231" id="QJ2-Rp-FpG">
+                                        <rect key="frame" x="0.0" y="464.5" width="414" height="231"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QJ2-Rp-FpG" id="uVQ-hI-lbO">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="231"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="htr-lt-yb0">
+                                                    <rect key="frame" x="20" y="11" width="230" height="50"/>
+                                                    <subviews>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ghs-XJ-WoV">
+                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="1hp-AJ-vZW"/>
+                                                                <constraint firstAttribute="height" constant="50" id="qxV-vX-1Xp"/>
+                                                            </constraints>
+                                                            <state key="normal" title="Button"/>
+                                                            <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                                                <backgroundConfiguration key="background" cornerRadius="15" image="facebook" strokeWidth="0.0"/>
+                                                            </buttonConfiguration>
+                                                            <connections>
+                                                                <action selector="goToFacebook:" destination="Fq2-QD-ayk" eventType="touchUpInside" id="V3v-qZ-dZX"/>
+                                                            </connections>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igR-UG-Lg0">
+                                                            <rect key="frame" x="60" y="0.0" width="50" height="50"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="2F2-jn-7Cp"/>
+                                                                <constraint firstAttribute="height" constant="50" id="4We-Qn-a1l"/>
+                                                            </constraints>
+                                                            <state key="normal" title="Button"/>
+                                                            <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                                                <backgroundConfiguration key="background" cornerRadius="15" image="telegram" strokeWidth="0.0"/>
+                                                            </buttonConfiguration>
+                                                            <connections>
+                                                                <action selector="goToTelegram:" destination="Fq2-QD-ayk" eventType="touchUpInside" id="gdV-IV-D4b"/>
+                                                            </connections>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nP-vT-43U">
+                                                            <rect key="frame" x="120" y="0.0" width="50" height="50"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="KBP-EL-ftQ"/>
+                                                                <constraint firstAttribute="height" constant="50" id="Vjq-Bj-ui8"/>
+                                                            </constraints>
+                                                            <state key="normal" title="Button"/>
+                                                            <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                                                <backgroundConfiguration key="background" cornerRadius="15" image="viber" strokeWidth="0.0"/>
+                                                            </buttonConfiguration>
+                                                            <connections>
+                                                                <action selector="goToViber:" destination="Fq2-QD-ayk" eventType="touchUpInside" id="OWI-9S-pSX"/>
+                                                            </connections>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0t-WG-e2j">
+                                                            <rect key="frame" x="180" y="0.0" width="50" height="50"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="50" id="w35-Qb-OTN"/>
+                                                                <constraint firstAttribute="height" constant="50" id="yyf-1R-nLh"/>
+                                                            </constraints>
+                                                            <state key="normal" title="Button"/>
+                                                            <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="fixed">
+                                                                <backgroundConfiguration key="background" cornerRadius="15" image="youtube" strokeWidth="0.0"/>
+                                                            </buttonConfiguration>
+                                                            <connections>
+                                                                <action selector="goToYouTube:" destination="Fq2-QD-ayk" eventType="touchUpInside" id="syQ-l2-XTO"/>
+                                                            </connections>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5O-ye-YDG">
+                                                    <rect key="frame" x="20" y="71" width="192" height="30"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Політика конфіденційності">
+                                                        <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="goToPrivacyPolicy:" destination="Fq2-QD-ayk" eventType="touchUpInside" id="fUK-re-m7Y"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58f-zf-F2g">
+                                                    <rect key="frame" x="20" y="111" width="68" height="30"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Наш сайт">
+                                                        <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="goToWebsite:" destination="Fq2-QD-ayk" eventType="touchUpInside" id="kBZ-5p-F3v"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="htr-lt-yb0" firstAttribute="top" secondItem="uVQ-hI-lbO" secondAttribute="topMargin" id="8rY-no-G5a"/>
+                                                <constraint firstItem="r5O-ye-YDG" firstAttribute="leading" secondItem="uVQ-hI-lbO" secondAttribute="leadingMargin" id="U30-XV-7xR"/>
+                                                <constraint firstItem="htr-lt-yb0" firstAttribute="top" secondItem="uVQ-hI-lbO" secondAttribute="topMargin" id="U5a-ez-t3n"/>
+                                                <constraint firstItem="58f-zf-F2g" firstAttribute="leading" secondItem="uVQ-hI-lbO" secondAttribute="leadingMargin" id="dBw-9F-rGg"/>
+                                                <constraint firstItem="r5O-ye-YDG" firstAttribute="top" secondItem="htr-lt-yb0" secondAttribute="bottom" constant="10" id="dpC-23-vec"/>
+                                                <constraint firstItem="58f-zf-F2g" firstAttribute="top" secondItem="r5O-ye-YDG" secondAttribute="bottom" constant="10" id="w8I-Gd-Phs"/>
+                                                <constraint firstItem="htr-lt-yb0" firstAttribute="leading" secondItem="uVQ-hI-lbO" secondAttribute="leadingMargin" id="yXr-OY-kKL"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9HJ-FA-kRa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2082.608695652174" y="-622.09821428571422"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0tv-GJ-g5b">
+            <objects>
+                <viewController id="P9E-3D-AJe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yla-4G-gnr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ov7-cD-kBp">
+                                <rect key="frame" x="115" y="284" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tkW-oT-Pig"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ct0-dm-jJt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2871" y="-719"/>
         </scene>
     </scenes>
     <resources>
+        <image name="facebook" width="256" height="256"/>
+        <image name="telegram" width="256" height="256"/>
+        <image name="viber" width="256" height="256"/>
+        <image name="violadent_logo-41" width="311" height="67"/>
+        <image name="youtube" width="256" height="256"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
