@@ -10,7 +10,7 @@ import Foundation
 
 
 class CategoryPresenter {
-    var view: CategoryControllerInput
+    weak var view: CategoryControllerInput?
     var interactor:CategoryInteractorInput
     var router:CategoryRouterInput
     
@@ -47,8 +47,7 @@ extension CategoryPresenter:CategoryContollerOutput {
 extension CategoryPresenter:CategoryInteractorOutput {
     func addTableContent(_ content: [CategoriesTableData]) {
         DispatchQueue.main.async {
-            self.view.tableContent = content
-
+            self.view?.tableContent = content
         }
     }
     

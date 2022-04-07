@@ -17,6 +17,10 @@ class AboutUsController: UITableViewController , AboutUsControllerInput , Storyb
         title = "Контактна інформація"
         setupGoBackButton()
     }
+    deinit {
+        print("AboutUsController deinit")
+    }
+    
     private func setupGoBackButton() {
         let backButton = UIBarButtonItem(image: UIImage(systemName: "chevron.left"), style: .plain, target: self, action: #selector(goBack))
         navigationItem.leftBarButtonItem = backButton

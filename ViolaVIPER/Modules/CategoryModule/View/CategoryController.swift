@@ -23,7 +23,9 @@ class CategoryController: UITableViewController , CategoryControllerInput {
         saveUnselectButtons()
         backButton()
     }
-    
+    deinit {
+        print("Category module deinit")
+    }
     private func saveUnselectButtons() {
         let saveButton = UIBarButtonItem(image: UIImage(systemName: "checkmark"), style: .done, target: self, action:  #selector(tapSave))
         

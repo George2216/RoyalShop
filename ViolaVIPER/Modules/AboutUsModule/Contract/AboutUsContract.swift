@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol AboutUsControllerInput {
+protocol AboutUsControllerInput:NSObject {
     var presenter:AboutUsControllerOutput? { get set }
 }
 

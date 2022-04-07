@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol DetailProductControllerInput {
+protocol DetailProductControllerInput: NSObject {
     var presenter:DetailProductControllerOutput? { get set }
     var content:DetailProductModel { get set }
 }

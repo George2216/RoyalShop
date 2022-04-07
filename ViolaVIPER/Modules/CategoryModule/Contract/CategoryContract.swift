@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol CategoryControllerInput {
+protocol CategoryControllerInput:NSObject {
     var presenter:CategoryContollerOutput? { get set }
     var tableContent:[CategoriesTableData] { get set }
 }

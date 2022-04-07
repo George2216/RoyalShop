@@ -34,6 +34,9 @@ class DetailProductController: UICollectionViewController , DetailProductControl
             header?.animator.fractionComplete = abs(contentOffsetY) / divider
         
     }
+    deinit {
+        print("Deinit detail")
+    }
     
     
     private func setupGoBackButton() {

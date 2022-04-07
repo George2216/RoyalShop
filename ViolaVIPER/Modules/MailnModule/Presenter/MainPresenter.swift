@@ -27,7 +27,7 @@ case line
 
 class MainPresenter {
     
-    var view:MainControllerInput
+    weak var view:MainControllerInput?
     var interactor:MainInteractorInput
     var router:MainRouterInput
     
@@ -51,7 +51,7 @@ extension MainPresenter:MainControllerOutput {
     
     func selectedCategories(_ array: [Category]) {
         interactor.selectedCategories = array
-        view.categoriesContent = array.map{ $0.name }
+        view?.categoriesContent = array.map{ $0.name }
     }
     
    
@@ -86,30 +86,30 @@ extension MainPresenter:MainInteractorOutput {
    
     
     func relodCategories(_ array: [String]) {
-        view.categoriesContent = array
+        view?.categoriesContent = array
     }
     
     func changeLayout(_ on: ConfigurationStyle) {
-        view.changeImageName(on.imageName)
-        view.changeLayout(on)
+        view?.changeImageName(on.imageName)
+        view?.changeLayout(on)
         
         switch on {
         case .line:
-            view.usedLineCell()
+            view?.usedLineCell()
         default:
-            view.usedDefaultCell()
+            view?.usedDefaultCell()
         }
     }
     
     
     func getProducts(_ products: [NeededProductData]) {
         DispatchQueue.main.async {
-            self.view.products = products
+            self.view?.products = products
         }
     }
     
     func categoriesPlaceholter(_ text: String) {
-        view.categoriesPlaceholder = text
+        view?.categoriesPlaceholder = text
     }
     
 }

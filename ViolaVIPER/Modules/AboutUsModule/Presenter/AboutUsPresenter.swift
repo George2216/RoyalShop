@@ -9,7 +9,7 @@ import Foundation
 
 
 class AboutUsPresenter {
-    var view: AboutUsControllerInput
+    weak var view: AboutUsControllerInput?
     var interactor:AboutUsInteractorInput
     var router:AboutUsRouterInput
     

@@ -15,6 +15,11 @@ class ActivityVC: UIActivityViewController {
     }
     
     private func setupActivityTypes() {
+        
         self.excludedActivityTypes = [UIActivity.ActivityType.print, UIActivity.ActivityType.postToWeibo, UIActivity.ActivityType.copyToPasteboard, UIActivity.ActivityType.addToReadingList, UIActivity.ActivityType.postToVimeo]
+    }
+    
+    deinit {
+        print("Activity module deinit")
     }
 }

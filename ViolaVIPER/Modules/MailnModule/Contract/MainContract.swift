@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol MainControllerInput {
+protocol MainControllerInput:NSObject {
     var presenter:MainControllerOutput? { get set }
     var products: [NeededProductData] { get set }
     var categoriesPlaceholder:String { get set }

@@ -9,7 +9,7 @@ import Foundation
 
 
 class DetailProductPresenter {
-    var view: DetailProductControllerInput
+    weak var view: DetailProductControllerInput?
     var interactor: DetailProductInteractorInput
     var router: DetailProductRouterInput
     
@@ -29,7 +29,7 @@ extension DetailProductPresenter: DetailProductControllerOutput {
     }
     
     func content(data:DetailProductModel) {
-        view.content = data
+        view?.content = data
         interactor.content = data
     }
     
